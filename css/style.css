@@ -12,9 +12,42 @@ body {
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 .wrapper {
   margin: 50px auto 0;
-  width: 500px;
+  width: 540px;
+}
+
+.primary {
+  color: #333;
+  margin: 0 0 0.75rem;
+  font-weight: 500;
+}
+
+.secondary {
+  color: #bbb;
+  margin: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.play-again {
+  height: 0px;
+  overflow: hidden;
+}
+
+.play-again-btn {
+  display: inline-block;
+  margin-bottom: 3rem;
+  height: 50px;
+  width: 50%;
+  background: teal;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 .board button {
@@ -41,6 +74,22 @@ body {
 }
 .board button.black {
   background: #000;
+}
+
+/* footer */
+.github {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  font-size: 12px;
+  color: #333;
+  padding: 4px 8px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.github:hover {
+  color: #ad0505;
 }
 
 /* Media Queries */
