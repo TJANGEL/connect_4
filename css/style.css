@@ -27,4 +27,20 @@ body {
   background: #bbb;
 }
 
+.board button:hover {
+  filter: brightness(60%);
+}
+
+.board button:focus {
+  outline: 0;
+}
+
+/* button colors when coin is placed */
+.board button.red {
+  background: #ad0505;
+}
+.board button.black {
+  background: #000;
+}
+
 /* Media Queries */
