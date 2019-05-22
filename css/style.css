@@ -25,12 +25,12 @@ body {
 
 .primary {
   color: #333;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.25rem;
   font-weight: 500;
 }
 
 .secondary {
-  color: #bbb;
+  color: rgb(236, 53, 53);
   margin: 0;
   margin-bottom: 1rem;
   font-weight: 500;
