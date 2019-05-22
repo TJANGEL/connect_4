@@ -1,4 +1,3 @@
-// Create variables.
 var Game = {};
 
 // Global game config
@@ -8,8 +7,6 @@ Game.config = {
   drawMsg: 'This game is a draw.',
   winMsg: 'The winner is: ',
   countToWin: 4,
-
-  // note: board dimensions are zero-indexed
   boardLength: 6,
   boardHeight: 5
 };
